@@ -1,0 +1,27 @@
+#assigning elements to different lists
+list1= [1, 'ramesh', 267, '67', 2+4j]
+list2= [23, 673, 'red colour', 'traffic']
+list3= ['apple','orange', 34, 874]
+
+#accesing elements from a tuple
+tuple1= (1,2,3,4,5,6)
+print(tuple1)
+num= int(input('Enter the index value of element to be accessed:'))
+for i in range(6):
+    print(tuple1[num])
+    break
+    
+# deleting elements from a dictionary 
+squares = {1: 1, 2: 4, 3: 9, 4: 16, 5: 25}
+
+#removing element 16
+print(squares.pop(4))
+
+#removing element 25
+print(squares.pop(5))
+
+# remove all items
+squares.clear()
+
+# delete the dictionary itself
+del squares
